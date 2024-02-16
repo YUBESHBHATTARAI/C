@@ -1,23 +1,13 @@
+//swapping without any variable
 #include<stdio.h>
 int main()
 {
- int n,count=0,i;
- printf("enter the number :");
- scanf("%d",&n);
- for(i=1;i<=n;i++);
- {
- 	if(n%i==0)
- 	{
- 		count=count+1;
-	 } 
-	if(count=2)
-	 {
-	 printf("the given number is prime");
-	 }
-	else 
-	 {
-	 printf("the given number is composite");
-	 }
-}
+int a,b;
+printf("enter the values:\n");
+scanf("%d%d",&a,&b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("the the swapped valuee is %d and %d",a,b);
 return 0;
 }
