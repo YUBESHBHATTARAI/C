@@ -6,7 +6,7 @@ int main()
     scanf("%d%d",&a,&b);
     temp=a;//swaping with the third variable
     a=b;
-    b=a;
+    b=temp;
 printf("the values are %d and %d",a,b);
 return 0;
 }
