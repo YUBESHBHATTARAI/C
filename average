@@ -1,0 +1,19 @@
+//C PROGRAM TO CALCULATE SUM AND AVERAGE USING DO WHILE LOOP
+#include<stdio.h>
+int main()
+{
+	int x,n,sum=0,count=1;
+	float avg;
+	printf("enter the values of n:");
+	scanf("%d",&n);
+	do{
+	printf("enter number %d=",count);
+	scanf("%d",&n);
+	sum=sum+n;
+	count ++;	
+	}while(count<=n);
+ avg=(float)sum/n;
+	printf("the sum is %d",sum);
+	printf("the average is %f",avg);
+	return 0;
+}
